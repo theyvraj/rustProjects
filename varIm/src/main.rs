@@ -61,5 +61,21 @@ fn main() {
     };
     println!("guess is : {}", guess);
 }
+-----------------------------------
+interger overflow
 */
-fn main() {}
+fn main() {
+    let sum = 5 + 10;
+    let difference = 95.3 - 4.3;
+    let product = 4 * 30;
+    let quotient = 56.7 / 32.2;
+    let truncated = -5 / 3;
+    let truncated_t = -54.3 / 32.0;
+    let remainder = 43 % 5;
+    let tr = true;
+    let f: bool = false;
+    println!(
+        "sum {}, diff {}, product {}, quotient {}, truncated {}, truncated_t {}, remainder {}, tr {}, f {}",
+        sum, difference, product, quotient, truncated, truncated_t, remainder, tr, f
+    );
+}
